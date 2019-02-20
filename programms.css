@@ -1,0 +1,51 @@
+*body{
+
+
+  font-family:fantasy;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+.Menueleiste {
+  font-size: 25px;
+  font-family: sans-serif;
+
+}
+
+#navi {
+  float: left;
+  position: relative;
+  left: 50%;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+#navi li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#navi a {
+  width: auto;
+  display: block;
+  margin-left: 40px;
+  padding: 0 10px;
+  line-height: 1.5em;
+  color: white;
+  background: opacity;
+  border: 0px solid white;
+  text-decoration: none;
+}
+
+#navi a:hover {
+  background: #F6CED8;
+  color: white;
+  background: hsla(#F6CED8, 20%, 10%, 0.3);
+  transition: background 1s;
+/* langsame Bewegung der Schrift nach unten*/
+  padding: 10px;
+  transition: padding 1s;
+}
