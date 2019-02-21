@@ -10,7 +10,18 @@
 .Menueleiste {
   font-size: 25px;
   font-family: sans-serif;
+  background-color: hsla(black, 20%, 10%, 0.3);
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: -5px;
 
+}
+
+.MenuleisteHintergrund{
+  background-color: hsla(black, 20%, 10%, 0.3);
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: -5px;
 }
 
 #navi {
