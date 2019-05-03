@@ -1,27 +1,31 @@
 *body{
-
-
-  font-family:fantasy;
-  color: #000000;
-  background-color: #ffffff;
+  font-family: Verdana;
 }
 
-
-.Menueleiste {
-  font-size: 25px;
-  font-family: sans-serif;
-  background-color: hsla(black, 20%, 10%, 0.3);
-  margin-left: -5px;
-  margin-right: -5px;
-  margin-top: -5px;
-
+header{
+  font-size: 40px;
+  font-family: Verdana;
+  text-align: center;
 }
 
-.MenuleisteHintergrund{
-  background-color: hsla(black, 20%, 10%, 0.3);
-  margin-left: -5px;
-  margin-right: -5px;
-  margin-top: -5px;
+nav{
+    font-size: 120%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: #E0E0E0;
+
+    
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  text-decoration: none;
+  color: black;
 }
 
 #navi {
