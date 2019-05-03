@@ -1,10 +1,10 @@
 /* CSS Document */
-html{
+html {
 	margin: 0;
 	padding: 0;
 }
 
-body{
+body {
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	font-size: 100%;
 	line-height: 1.88889;
@@ -14,28 +14,34 @@ body{
 }
 
 /* Navigationleiste */
-nav{
+nav {
 	borer-width: 0.1px;
 	border-style: solid;
 	border-color: lightgrey;
-	border-radius: 25px / 25px;
-	box-shadow: 3px 3px grey;
 	text-align: center;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	color: black;
 }
 
-a:link{
+a:link {
 	text-decoration: none;
 	color: black;
 }
 
-a:link:visited{
+a:link:visited {
 	text-decoration: none;
 	color: black;
 }
 
-a: hover, a:focus, a:active{
+a:hover, a:focus, a:active { 
 	text-decoration: underline;
 	color: darkgray;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a:link, footer a:visited {
+	margin-right: 20px;
 }
