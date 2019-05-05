@@ -12,6 +12,7 @@ body {
 	color: black;
 	margin: 0;
 	padding: 0;
+
 }
 
 header {
@@ -28,7 +29,6 @@ nav {
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	color: black;
 	width: 100%;
-
 }
 
 a:link {
@@ -53,22 +53,33 @@ a:hover, a:focus, a:active {
 }
 
 article {
-	width: 400px;
-	position: relative;
+	width: 55%;
+	float: left;
 	
 }
 
-section {
+article > section {
 	border-left-color: lightgray;
 	border-left-width: 8px;
 	border-left-style: solid;
-	width: 350px;
 	padding: 10px;
 	margin: 25px
 }
 
+article > section > footer {
+	text-align: left;
+}
+
+aside {
+	width: 30%;
+	float: right;
+}
+
+
 footer {
+	width: 100%;
 	text-align: center;
+	float: left;
 }
 
 footer a:link, footer a:visited {
