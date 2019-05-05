@@ -2,6 +2,7 @@
 html {
 	margin: 0;
 	padding: 0;
+	box-sizig: border-box;
 }
 
 body {
@@ -13,6 +14,11 @@ body {
 	padding: 0;
 }
 
+header {
+	position: sticky;
+	top: 69px;
+}
+
 /* Navigationleiste */
 nav {
 	borer-width: 0.1px;
@@ -22,6 +28,9 @@ nav {
 	text-align: center;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	color: black;
+	width: 100%;
+	position: sticky;
+	top: 1px;
 }
 
 a:link {
@@ -43,6 +52,21 @@ a:visited {
 a:hover, a:focus, a:active { 
 	text-decoration: underline;
 	color: darkgray;
+}
+
+article {
+	width: 400px;
+	position: relative;
+	
+}
+
+section {
+	border-left-color: lightgray;
+	border-left-width: 8px;
+	border-left-style: solid;
+	width: 350px;
+	padding: 10px;
+	margin: 25px
 }
 
 footer {
