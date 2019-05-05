@@ -17,7 +17,8 @@ body {
 nav {
 	borer-width: 0.1px;
 	border-style: solid;
-	border-color: lightgrey;
+	border-color: aliceblue;
+	background-color: aliceblue;
 	text-align: center;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	color: black;
@@ -31,6 +32,12 @@ a:link {
 a:link:visited {
 	text-decoration: none;
 	color: black;
+}
+
+a:visited {
+	text-decoation: none;
+	color: black;
+	text-decoration-color: black;
 }
 
 a:hover, a:focus, a:active { 
