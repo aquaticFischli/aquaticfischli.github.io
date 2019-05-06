@@ -9,9 +9,10 @@ body {
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	font-size: 100%;
 	line-height: 1.88889;
-	color: black;
+	color: #1d2731;
 	margin: 0;
 	padding: 0;
+	background-color: white;
 
 }
 
@@ -21,40 +22,68 @@ header {
 
 /* Navigationleiste */
 nav {
-	borer-width: 0.1px;
-	border-style: solid;
-	border-color: aliceblue;
+/*	border-style: solid;
+	border-color: aliceblue;*/
 	background-color: aliceblue;
 	text-align: center;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	color: black;
+	color: #1d2731;
 	width: 99.6%;
+	padding-top: 0.2px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgrey;
+	border-bottom-width: 0.1px;
+}
+
+nav a {
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+}
+
+nav .home {
+	background-color: white;
+	padding-bottom: 1.23%;
+	padding-top: 0.23%;
+	border-left-style: solid;
+	border-left-color: lightgrey;
+	border-left-width: 0.1px;
+	border-right-style: solid;
+	border-right-color: lightgrey;
+	border-right-width: 0.1px;
+	border-top-style: solid;
+	border-top-color: darksalmon;
 }
 
 a:link {
 	text-decoration: none;
-	color: black;
+	color: #1d2731;
 }
 
 a:link:visited {
 	text-decoration: none;
-	color: black;
+	color: #1d2731;
 }
 
 a:visited {
 	text-decoation: none;
-	color: black;
-	text-decoration-color: black;
+	color: #1d2731;
+	text-decoration-color: #1d2731;
 }
 
 a:hover, a:focus, a:active { 
-	text-decoration: underline;
-	color: darkgray;
+	font-weight: bolder;
+}
+
+main {
+	background-color: white;
+	float: left;
+	width: 100%;
 }
 
 article {
 	width: 55%;
 	float: left;
+	background-color: white;
 	
 }
 
