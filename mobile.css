@@ -22,30 +22,36 @@ header {
 
 /* Navigationleiste */
 nav {
-	borer-width: 0.1px;
-	border-style: solid;
-	border-color: aliceblue;
 	background-color: aliceblue;
 	text-align: center;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	color: black;
+	color: #1d2731;
 	width: 99.6%;
+	padding-top: 0.2px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgrey;
+	border-bottom-width: 0.1px;
+}
+
+nav a {
+	padding-left: 0.5%;
+	padding-right: 0.5%;
 }
 
 a:link {
 	text-decoration: none;
-	color: black;
+	color: #1d2731;
 }
 
 a:link:visited {
 	text-decoration: none;
-	color: black;
+	color: #1d2731;
 }
 
 a:visited {
 	text-decoation: none;
-	color: black;
-	text-decoration-color: black;
+	color: #1d2731;
+	text-decoration-color: #1d2731;
 }
 
 a:hover, a:focus, a:active { 
